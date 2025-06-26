@@ -1,17 +1,36 @@
-# grocery_tracker
+# Grocery Tracker
 
-A new Flutter project.
+A Flutter app to track grocery expiry dates.
+https://grocerytracker.vercel.app/
+
+## Features
+
+- Track grocery items and their expiry dates
+- Add, edit, and delete grocery items
+- Dark mode support
+- Notifications for expiring items
+- Cross-platform support (Android, iOS, Web)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- For web deployment:
+  - A static web hosting service (e.g., GitHub Pages, Firebase Hosting, Netlify)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Running the App Locally
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# grocerytracker
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/grocery_tracker.git
+cd grocery_tracker
+
+# Get dependencies
+flutter pub get
+
+# Run on web locally
+flutter run -d chrome
+
+# Run on Android or iOS device/emulator
+flutter run
